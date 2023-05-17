@@ -1,0 +1,27 @@
+.row {
+  justify-content: center;
+  display: flex;
+  margin: 50px 0;
+}
+.text_auth_login {
+  margin: 10px 0;
+}
+.auth_form {
+  display: inline-block;
+  background: #222831;
+  border-radius: 16px;
+}
+#outlined-basic {
+}
+.btn_gauth {
+  position: absolute;
+
+  left: 25%;
+}
+.btn_login {
+  position: absolute;
+  left: 75%;
+}
+/* .text{
+  display: inline;
+} */
