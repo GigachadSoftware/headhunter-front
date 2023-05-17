@@ -11,6 +11,13 @@
   width: 300px;
   width: 50%;
 }
+.text_info {
+  font-size: 16;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  top: -20px;
+}
 .MuiInputLabel-root {
   color: rgba(255, 255, 255, 0.25) !important;
 }
