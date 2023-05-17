@@ -1,10 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import Search from "../components/Search";
 
 const Home = () => {
-    return(
-        <h1>FFdsdsSD</h1>
-    )
-}
+  return <Search />;
+};
 
 export default Home;

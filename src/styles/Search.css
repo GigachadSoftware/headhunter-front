@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  background: #292b2f;
+  justify-content: space-between;
+}
+
+.wrapper {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 300px;
+  width: 50%;
+}
+.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.25) !important;
+}
+#outlined-basic {
+  color: #ffffff;
+  width: 200px;
+}
+#search_btn {
+  width: 200px;
+}
