@@ -11,17 +11,8 @@
   background: #222831;
   border-radius: 16px;
 }
-#outlined-basic {
+.btns_auth_login {
+  display: flex;
+  margin: 16px 12%;
+  justify-content: space-between;
 }
-.btn_gauth {
-  position: absolute;
-
-  left: 25%;
-}
-.btn_login {
-  position: absolute;
-  left: 75%;
-}
-/* .text{
-  display: inline;
-} */

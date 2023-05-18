@@ -13,7 +13,7 @@ const Auth_login = () => {
         <div className="text text_auth_login">Увійти в акаунт</div>
         <TextField id="outlined-basic" label="Логін" variant="outlined" />
         <TextField id="outlined-basic" label="Пароль" variant="outlined" />
-        <div className="btns">
+        <div className="btns_auth_login">
           <Button id="btn btn_gauth" variant="contained">
             GAuth
           </Button>
