@@ -1,13 +1,16 @@
 import { TextField, Button } from "@mui/material";
 import "../styles/Auth.css";
+import { Link } from "react-router-dom";
 const Auth_login = () => {
   return (
     <div className="wrapper_auth_login">
       <div className="row">
         <div className="text">Ще не зареєстровані?</div>
-        <Button id="btn btn_register" variant="contained">
-          Зареєструватися
-        </Button>
+        <Link to="/auth_reg">
+          <Button id="btn btn_register" variant="contained">
+            Зареєструватися
+          </Button>
+        </Link>
       </div>
       <div className="auth_form">
         <div className="text text_auth_login">Увійти в акаунт</div>
