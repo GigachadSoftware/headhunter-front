@@ -1,0 +1,15 @@
+.btns_auth_reg {
+  display: flex;
+  justify-content: center;
+}
+.auth_reg_form {
+  width: 30%;
+}
+.left_box {
+  display: flex;
+  flex-direction: column;
+}
+.right_box {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,10 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import Auth_login from "../components/Auth_login";
 
 const Auth = () => {
-    return(
-        <h1>FFdssada44444444444444SD</h1>
-    )
-}
+  return <Auth_login />;
+};
 
 export default Auth;
