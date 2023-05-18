@@ -12,6 +12,7 @@ const Auth_login = () => {
           </Button>
         </Link>
       </div>
+
       <div className="auth_form">
         <div className="text text_auth_login">Увійти в акаунт</div>
         <TextField id="outlined-basic" label="Логін" variant="outlined" />
