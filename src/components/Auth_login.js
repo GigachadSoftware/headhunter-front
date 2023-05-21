@@ -1,6 +1,7 @@
 import { TextField, Button } from "@mui/material";
 import "../styles/Auth.css";
 import { Link } from "react-router-dom";
+import ButtonLink from "./ButtonLink";
 const Auth_login = () => {
   return (
     <div className="wrapper_auth_login">
@@ -18,9 +19,7 @@ const Auth_login = () => {
         <TextField id="outlined-basic" label="Логін" variant="outlined" />
         <TextField id="outlined-basic" label="Пароль" variant="outlined" />
         <div className="btns_auth_login">
-          <Button id="btn btn_gauth" variant="contained">
-            GAuth
-          </Button>
+          <ButtonLink id="btn btn_gauth" variant="contained" link="/oauth/google/login" title="GAuth"/>
           <Button id="btn btn_login" variant="contained">
             Увійти
           </Button>
