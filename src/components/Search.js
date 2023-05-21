@@ -1,6 +1,7 @@
 import { TextField, colors } from "@mui/material";
 import { Button } from "@mui/material";
 import "../styles/Search.css";
+import ButtonLink from "./ButtonLink";
 const Search = () => {
   return (
     <div className="wrapper">
@@ -11,6 +12,8 @@ const Search = () => {
         <Button id="search_btn" variant="contained">
           Search
         </Button>
+
+        <ButtonLink link="/vacancy/1" title="FFFF"/>
       </div>
     </div>
   );

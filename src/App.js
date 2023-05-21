@@ -7,6 +7,7 @@ import Auth from "./pages/Auth";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Auth_reg from "./pages/Auth_reg";
+import Vacancy from "./pages/Vacancy";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/auth" element={<Auth />} />
         <Route path="/" element={<Home />} />
         <Route path="/auth_reg" element={<Auth_reg />} />
+        <Route path="/vacancy/:vacId" element={<Vacancy />} />
       </Routes>
       <Footer />
     </div>
